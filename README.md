@@ -1,4 +1,13 @@
 # 🕊️ Christian Projects open sorce.
+![](https://komarev.com/ghpvc/?username=mscbuild) 
+ ![](https://img.shields.io/github/license/mscbuild/e-learning) 
+ ![](https://img.shields.io/github/repo-size/mscbuild/e-learning)
+![](https://img.shields.io/badge/PRs-Welcome-green)
+![](https://img.shields.io/badge/code%20style-free-green)
+![](https://img.shields.io/github/stars/mscbuild)
+![](https://img.shields.io/badge/Topic-Github-lighred)
+![](https://img.shields.io/website?url=https%3A%2F%2Fgithub.com%2Fmscbuild)
+
 
 This repository is intended for developers, and so the only approved projects are open source projects, or APIs/services that could be useful to developers and are free to use (i.e. no fees). APIs that charge fees may be included if they offer a free level of access (e.g. 100 requests per day for free).
 
