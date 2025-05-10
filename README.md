@@ -325,3 +325,6 @@ This repository is intended for developers, and so the only approved projects ar
 </table></markdown-accessiblity-table>
 
 <p dir="auto">* Projects marked with an asterisk have been archived or abandoned.</p>
+
+🙏 Thank You
+A heartfelt thank you to all our contributors, past and present. Your efforts make `JR` better with every release.
