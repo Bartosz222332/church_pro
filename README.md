@@ -1,4 +1,4 @@
-# Christian Projects open sorce.
+# 🕊️ Christian Projects open sorce.
 
 This repository is intended for developers, and so the only approved projects are open source projects, or APIs/services that could be useful to developers and are free to use (i.e. no fees). APIs that charge fees may be included if they offer a free level of access (e.g. 100 requests per day for free).
 
